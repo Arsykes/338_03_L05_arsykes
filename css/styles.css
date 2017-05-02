@@ -1,13 +1,84 @@
 @charset "UTF-8";
 /* CSS Document */
 
-h1 {
-	font-family: helvetica, sans-serif;
-	font-weight: 500;
+*{
+	font-family:helvetica, sans-serif;
 }
 
+nav {
+	background-color: #898889;
+	width: 100%;
+	height: 50px;
+	margin-bottom: 50px;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	float: left;
+	display:block;
+	width: 150px;
+	line-height: 50px;
+}
+
+a:link {
+	text-decoration: none;
+	color: white;
+	font-family: helvetica, sans serif;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: #02B2A9;
+}
+
+a:active {
+	color: #D5FF59;
+}
+
+
 h2 {
-	font-family: helvetica, sans-serif;
 	font-weight: 200;
 	margin-top: -20px;
+}
+
+tr:nth-child(even) {
+	background-color: #FDFFB8;
+}
+
+th {
+	padding: 5px 20px;
+	text-align:left;
+	border-left:1px solid #8F714C;
+}
+
+td {
+	padding: 5px 30px;
+	border-left:1px solid #8F714C;
+	border-right:1px solid #8F714C;
+}
+
+
+table {
+	border-collapse:collapse;
+	border-bottom:1px solid #8F714C;
+}
+
+tr:nth-child(2) {
+	border-top:1px solid #8F714C;
+}
+
+.image {
+	border: 0px solid #8F714C;
+	vertical-align: bottom;
+}
+
+span {
+	font-weight:400;
+	font-style:italic;
 }
