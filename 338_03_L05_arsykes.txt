@@ -1,0 +1,131 @@
+Last login: Tue May  2 12:07:06 on console
+grc-poland:~ arsykes$ cd Desktop
+grc-poland:Desktop arsykes$ cd 338_03_05_arsykes
+-bash: cd: 338_03_05_arsykes: No such file or directory
+grc-poland:Desktop arsykes$ cd 338_03_l05_arsykes
+grc-poland:338_03_l05_arsykes arsykes$ git init
+Initialized empty Git repository in /Users/arsykes/Desktop/338_03_L05_arsykes/.git/
+grc-poland:338_03_l05_arsykes arsykes$ git add -A
+grc-poland:338_03_l05_arsykes arsykes$ git commit -m "add files"
+[master (root-commit) 7410f3e] add files
+ 10 files changed, 14 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 Untitled-3.html
+ create mode 100644 css/styles.css
+ create mode 100644 images/.DS_Store
+ create mode 100755 images/Lab 5 text.docx
+ create mode 100755 images/black.png
+ create mode 100755 images/green.jpg
+ create mode 100755 images/limegreen.jpg
+ create mode 100644 images/logo.gif
+ create mode 100755 images/white.jpg
+grc-poland:338_03_l05_arsykes arsykes$ git remote add origin https://github.com/Arsykes/338_03_L05_arsykes.git
+grc-poland:338_03_l05_arsykes arsykes$ git push -u origin master
+Counting objects: 14, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (14/14), 1.21 MiB | 1.82 MiB/s, done.
+Total 14 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/Arsykes/338_03_L05_arsykes.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+grc-poland:338_03_l05_arsykes arsykes$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   .DS_Store
+	deleted:    Untitled-3.html
+	modified:   images/.DS_Store
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	338_03_l05_arsykes.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+grc-poland:338_03_l05_arsykes arsykes$ git add -A
+grc-poland:338_03_l05_arsykes arsykes$ git commit -m "added table"
+[master 8f73c6b] added table
+ 4 files changed, 77 insertions(+), 11 deletions(-)
+ create mode 100644 338_03_l05_arsykes.html
+ delete mode 100644 Untitled-3.html
+grc-poland:338_03_l05_arsykes arsykes$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+grc-poland:338_03_l05_arsykes arsykes$ git push
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 1.24 KiB | 0 bytes/s, done.
+Total 6 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/Arsykes/338_03_L05_arsykes.git
+   7410f3e..8f73c6b  master -> master
+grc-poland:338_03_l05_arsykes arsykes$ git commit -am "add images"
+[master 8fbcc2d] add images
+ 2 files changed, 18 insertions(+), 1 deletion(-)
+grc-poland:338_03_l05_arsykes arsykes$ git push
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 745 bytes | 0 bytes/s, done.
+Total 5 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Arsykes/338_03_L05_arsykes.git
+   8f73c6b..8fbcc2d  master -> master
+grc-poland:338_03_l05_arsykes arsykes$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   338_03_l05_arsykes.html
+	modified:   css/styles.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+grc-poland:338_03_l05_arsykes arsykes$ git commit -am "add nav"
+[master 36f392c] add nav
+ 2 files changed, 92 insertions(+), 11 deletions(-)
+grc-poland:338_03_l05_arsykes arsykes$ git push
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 1.12 KiB | 0 bytes/s, done.
+Total 5 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Arsykes/338_03_L05_arsykes.git
+   8fbcc2d..36f392c  master -> master
+grc-poland:338_03_l05_arsykes arsykes$ git push
+Everything up-to-date
+grc-poland:338_03_l05_arsykes arsykes$ git log
+commit 36f392cd14c71c86034cb32a1f42c06cb80d3f42
+Author: Arsykes <arsykes@calpoly.edu>
+Date:   Tue May 2 14:12:29 2017 -0700
+
+    add nav
+
+commit 8fbcc2da5b5afd438433573854dfbeb23edb92fe
+Author: Arsykes <arsykes@calpoly.edu>
+Date:   Tue May 2 13:26:17 2017 -0700
+
+    add images
+
+commit 8f73c6bec7c0bb59f84fe4d5923971ed05376b93
+Author: Arsykes <arsykes@calpoly.edu>
+Date:   Tue May 2 13:12:26 2017 -0700
+
+    added table
+
+commit 7410f3ee01a52b2102f4d443fb86230b21573f08
+Author: Arsykes <arsykes@calpoly.edu>
+Date:   Tue May 2 12:53:21 2017 -0700
+
+    add files
+:

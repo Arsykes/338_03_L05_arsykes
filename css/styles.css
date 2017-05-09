@@ -6,10 +6,9 @@
 }
 
 nav {
-	background-color: #898889;
+	background-color: #8B8888;
 	width: 100%;
 	height: 50px;
-	margin-bottom: 50px;
 }
 
 ul {
@@ -41,6 +40,9 @@ a:active {
 	color: #D5FF59;
 }
 
+h1 {
+	clear:both;
+}
 
 h2 {
 	font-weight: 200;
@@ -81,4 +83,11 @@ tr:nth-child(2) {
 span {
 	font-weight:400;
 	font-style:italic;
+}
+
+/*Beginning of form css*/
+
+form {
+	margin: 20px;
+	width:auto;
 }
