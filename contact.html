@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <title>Contact HTML</title>
 <link href="css/styles.css" rel="stylesheet" type="text/css"> 
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 </head>
 
 <body>
@@ -23,6 +24,9 @@
 
 <form> 
 
+<!--Personal Info Fieldset-->
+<fieldset class="field1">
+
 <p>First and Last Name:
 <input type="text" name="First and Last Name" size="15" maxlength="30">
 </p>
@@ -35,6 +39,7 @@
 <input type="text" name="City" size="30" maxlength="50">
 </p>
 
+<!--States with dropdown option-->
 <p>State:
 <select name="state"> 
 <option value="Alabama" selected="selected">Alabama</option>
@@ -108,6 +113,11 @@
 <input type="radio" name="gender" value="other" /> Other
 </p>
 
+</fieldset>
+
+<!--Survey question fieldset-->
+<fieldset class="field3">
+
 <p>Select 5 Colors:
 <input type="checkbox" name="Color" value="red" checked="checked" /> Red
 <input type="checkbox" name="Color" value="orange red"/> Orange Red
@@ -124,6 +134,13 @@
 <input type="checkbox" name="Color" value="silver" /> Silver
 </p>
 
+</fieldset>
+
+
+<!--Credit card info fieldset-->
+
+<fieldset class="field3">
+
 <p>Credit Card Info:</p>
 <p>Name on card:
 <input type="text" name="Name" size="30" maxlength="30" />
@@ -131,17 +148,25 @@
 <p>Credit Card Number:
 <input type="text" name="Card Number" size="30" maxlength="30" />
 </p>
-<p>Security Code:
-<input type="text" name="Security Code" size="5" maxlength="5" />
+<p>CVV/Security Code:
+<input type="text" name="CVV/Security Code" size="5" maxlength="5" />
 </p>
 
+<img src="images/visa.gif" alt="visa" />
+<img src="images/mastercard1979.gif" alt="mastercard" />
+<img src="images/american_express.gif" alt="americanexpress" />
+
+</fieldset>
 
 
-
+<!--Submit Button Fieldset-->
+<fieldset class="field4">
+<input type="submit" value="submit" />
+</fieldset>
 
 
 </form>
-
+<!--End of Form-->
 
 </body>
 </html>

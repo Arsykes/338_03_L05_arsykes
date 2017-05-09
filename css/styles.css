@@ -87,7 +87,24 @@ span {
 
 /*Beginning of form css*/
 
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
 form {
 	margin: 20px;
 	width:auto;
+
+	
+}
+
+form img {
+	width: 40px;
+	margin: 5px;
+}
+
+fieldset {
+	margin:20px;
+	border: none;
+
 }
